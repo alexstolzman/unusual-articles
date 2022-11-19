@@ -1,12 +1,13 @@
 import React from 'react'
 import './styles/tailwind.css'
 import './App.css'
+import Title from './components/Title'
 
 function App() {
 
   return (
     <div className="App">
-        <h1>Test test</h1>
+        <Title />
     </div>
   )
 }
